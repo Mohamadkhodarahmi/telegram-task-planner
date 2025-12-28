@@ -1,0 +1,23 @@
+{
+  "name": "telegram-study-planner-cloudflare",
+  "version": "1.0.0",
+  "description": "Study Planner Mini App for Telegram - Cloudflare Workers Version",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "keywords": ["telegram", "mini-app", "study-planner", "cloudflare", "workers"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240125.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.19.0"
+  }
+}
+
+
+
+
